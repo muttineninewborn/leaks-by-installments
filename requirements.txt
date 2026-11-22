@@ -1,0 +1,5 @@
+matplotlib  # Figure 2 only
+# GPU regeneration of the tutor replies:
+# torch
+# transformers
+# accelerate
