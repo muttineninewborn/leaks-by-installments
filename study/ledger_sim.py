@@ -1,5 +1,5 @@
 """
-CPU simulation for the cross-session disclosure ledger (candidate #13).
+CPU simulation of the cross-session disclosure ledger.
 
 World model
 -----------
@@ -14,10 +14,10 @@ Tutor policies compared
 -----------------------
   P0  no gate
   P1  per-turn gate        : never states the final value; anything else allowed
-  P2  per-session cumulative gate (state of the art, cf. cumulative verifiers inside one dialogue):
+  P2  per-session cumulative gate (cumulative verification within one dialogue):
                              refuse a disclosure if, together with everything disclosed IN THIS
                              SESSION, the final answer becomes derivable or coverage > tau
-  P3  cross-session ledger (invention): same rule, but the disclosure record is kept per learner
+  P3  cross-session ledger (proposed): same rule, but the disclosure record is kept per learner
                              and keyed by problem-equivalence class (rephrasings and isomorphic
                              variants map to one ledger entry via a detector with recall r);
                              methods taught by worked variants are recorded too.
