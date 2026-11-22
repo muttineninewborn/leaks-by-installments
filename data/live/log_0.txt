@@ -1,0 +1,43 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:36<00:36, 36.81s/it]Fetching 2 files: 100%|██████████| 2/2 [01:05<00:00, 32.17s/it]Fetching 2 files: 100%|██████████| 2/2 [01:05<00:00, 32.87s/it]
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:   0%|          | 1/434 [00:04<34:50,  4.83s/it]Loading weights:  43%|████▎     | 186/434 [00:04<00:04, 53.30it/s]Loading weights:  67%|██████▋   | 291/434 [00:07<00:02, 51.91it/s]Loading weights:  81%|████████  | 350/434 [00:09<00:02, 40.10it/s]Loading weights:  89%|████████▉ | 387/434 [00:12<00:01, 26.40it/s]Loading weights:  95%|█████████▍| 411/434 [00:14<00:00, 24.85it/s]Loading weights:  99%|█████████▊| 428/434 [00:14<00:00, 27.04it/s]Loading weights: 100%|██████████| 434/434 [00:14<00:00, 30.13it/s]
+  Qwen/Qwen2.5-3B-Instruct: 24/900
+  Qwen/Qwen2.5-3B-Instruct: 48/900
+  Qwen/Qwen2.5-3B-Instruct: 72/900
+  Qwen/Qwen2.5-3B-Instruct: 96/900
+  Qwen/Qwen2.5-3B-Instruct: 120/900
+  Qwen/Qwen2.5-3B-Instruct: 144/900
+  Qwen/Qwen2.5-3B-Instruct: 168/900
+  Qwen/Qwen2.5-3B-Instruct: 192/900
+  Qwen/Qwen2.5-3B-Instruct: 216/900
+  Qwen/Qwen2.5-3B-Instruct: 240/900
+  Qwen/Qwen2.5-3B-Instruct: 264/900
+  Qwen/Qwen2.5-3B-Instruct: 288/900
+  Qwen/Qwen2.5-3B-Instruct: 312/900
+  Qwen/Qwen2.5-3B-Instruct: 336/900
+  Qwen/Qwen2.5-3B-Instruct: 360/900
+  Qwen/Qwen2.5-3B-Instruct: 384/900
+  Qwen/Qwen2.5-3B-Instruct: 408/900
+  Qwen/Qwen2.5-3B-Instruct: 432/900
+  Qwen/Qwen2.5-3B-Instruct: 456/900
+  Qwen/Qwen2.5-3B-Instruct: 480/900
+  Qwen/Qwen2.5-3B-Instruct: 504/900
+  Qwen/Qwen2.5-3B-Instruct: 528/900
+  Qwen/Qwen2.5-3B-Instruct: 552/900
+  Qwen/Qwen2.5-3B-Instruct: 576/900
+  Qwen/Qwen2.5-3B-Instruct: 600/900
+  Qwen/Qwen2.5-3B-Instruct: 624/900
+  Qwen/Qwen2.5-3B-Instruct: 648/900
+  Qwen/Qwen2.5-3B-Instruct: 672/900
+  Qwen/Qwen2.5-3B-Instruct: 696/900
+  Qwen/Qwen2.5-3B-Instruct: 720/900
+  Qwen/Qwen2.5-3B-Instruct: 744/900
+  Qwen/Qwen2.5-3B-Instruct: 768/900
+  Qwen/Qwen2.5-3B-Instruct: 792/900
+  Qwen/Qwen2.5-3B-Instruct: 816/900
+  Qwen/Qwen2.5-3B-Instruct: 840/900
+  Qwen/Qwen2.5-3B-Instruct: 864/900
+  Qwen/Qwen2.5-3B-Instruct: 888/900
+  Qwen/Qwen2.5-3B-Instruct: 900/900
+saved /kaggle/working/drafts_0.json

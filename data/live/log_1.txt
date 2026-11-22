@@ -1,0 +1,44 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] This model config has set a `rope_parameters['original_max_position_embeddings']` field, to be used together with `max_position_embeddings` to determine a scaling factor. Please set the `factor` field of `rope_parameters`with this ratio instead -- we recommend the use of this field over `original_max_position_embeddings`, as it is compatible with most model architectures.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [01:05<01:05, 65.73s/it]Fetching 2 files: 100%|██████████| 2/2 [01:05<00:00, 32.86s/it]
+Loading weights:   0%|          | 0/195 [00:00<?, ?it/s]Loading weights:   1%|          | 1/195 [00:02<07:57,  2.46s/it]Loading weights:   1%|          | 2/195 [00:02<03:54,  1.21s/it]Loading weights:   7%|▋         | 14/195 [00:02<00:21,  8.28it/s]Loading weights:  10%|█         | 20/195 [00:03<00:15, 11.49it/s]Loading weights:  12%|█▏        | 24/195 [00:03<00:14, 11.65it/s]Loading weights:  15%|█▍        | 29/195 [00:03<00:11, 14.05it/s]Loading weights:  16%|█▋        | 32/195 [00:03<00:10, 15.65it/s]Loading weights:  18%|█▊        | 35/195 [00:04<00:10, 15.17it/s]Loading weights:  21%|██        | 41/195 [00:04<00:08, 18.92it/s]Loading weights:  24%|██▍       | 47/195 [00:04<00:06, 23.34it/s]Loading weights:  29%|██▊       | 56/195 [00:04<00:04, 30.30it/s]Loading weights:  31%|███       | 60/195 [00:04<00:05, 24.89it/s]Loading weights:  33%|███▎      | 65/195 [00:05<00:05, 25.12it/s]Loading weights:  36%|███▋      | 71/195 [00:05<00:06, 18.91it/s]Loading weights:  38%|███▊      | 74/195 [00:05<00:06, 18.05it/s]Loading weights:  39%|███▉      | 77/195 [00:06<00:11, 10.38it/s]Loading weights:  43%|████▎     | 83/195 [00:07<00:11,  9.38it/s]Loading weights:  44%|████▍     | 86/195 [00:07<00:10, 10.62it/s]Loading weights:  46%|████▌     | 89/195 [00:08<00:15,  6.98it/s]Loading weights:  49%|████▊     | 95/195 [00:08<00:12,  8.33it/s]Loading weights:  61%|██████    | 118/195 [00:08<00:03, 23.61it/s]Loading weights:  64%|██████▎   | 124/195 [00:09<00:02, 24.10it/s]Loading weights:  67%|██████▋   | 130/195 [00:10<00:04, 14.76it/s]Loading weights:  69%|██████▊   | 134/195 [00:11<00:06,  8.99it/s]Loading weights:  70%|███████   | 137/195 [00:12<00:09,  6.16it/s]Loading weights:  73%|███████▎  | 143/195 [00:13<00:07,  6.57it/s]Loading weights:  76%|███████▋  | 149/195 [00:14<00:06,  7.32it/s]Loading weights:  79%|███████▉  | 155/195 [00:14<00:04,  9.99it/s]Loading weights:  81%|████████  | 158/195 [00:14<00:03, 11.23it/s]Loading weights:  83%|████████▎ | 161/195 [00:14<00:02, 12.84it/s]Loading weights:  86%|████████▌ | 167/195 [00:14<00:01, 15.40it/s]Loading weights:  89%|████████▊ | 173/195 [00:14<00:01, 20.41it/s]Loading weights:  91%|█████████ | 177/195 [00:14<00:00, 22.58it/s]Loading weights:  93%|█████████▎| 181/195 [00:15<00:00, 22.21it/s]Loading weights:  98%|█████████▊| 191/195 [00:15<00:00, 32.66it/s]Loading weights: 100%|██████████| 195/195 [00:15<00:00, 12.83it/s]
+  microsoft/Phi-3.5-mini-instruct: 24/900
+  microsoft/Phi-3.5-mini-instruct: 48/900
+  microsoft/Phi-3.5-mini-instruct: 72/900
+  microsoft/Phi-3.5-mini-instruct: 96/900
+  microsoft/Phi-3.5-mini-instruct: 120/900
+  microsoft/Phi-3.5-mini-instruct: 144/900
+  microsoft/Phi-3.5-mini-instruct: 168/900
+  microsoft/Phi-3.5-mini-instruct: 192/900
+  microsoft/Phi-3.5-mini-instruct: 216/900
+  microsoft/Phi-3.5-mini-instruct: 240/900
+  microsoft/Phi-3.5-mini-instruct: 264/900
+  microsoft/Phi-3.5-mini-instruct: 288/900
+  microsoft/Phi-3.5-mini-instruct: 312/900
+  microsoft/Phi-3.5-mini-instruct: 336/900
+  microsoft/Phi-3.5-mini-instruct: 360/900
+  microsoft/Phi-3.5-mini-instruct: 384/900
+  microsoft/Phi-3.5-mini-instruct: 408/900
+  microsoft/Phi-3.5-mini-instruct: 432/900
+  microsoft/Phi-3.5-mini-instruct: 456/900
+  microsoft/Phi-3.5-mini-instruct: 480/900
+  microsoft/Phi-3.5-mini-instruct: 504/900
+  microsoft/Phi-3.5-mini-instruct: 528/900
+  microsoft/Phi-3.5-mini-instruct: 552/900
+  microsoft/Phi-3.5-mini-instruct: 576/900
+  microsoft/Phi-3.5-mini-instruct: 600/900
+  microsoft/Phi-3.5-mini-instruct: 624/900
+  microsoft/Phi-3.5-mini-instruct: 648/900
+  microsoft/Phi-3.5-mini-instruct: 672/900
+  microsoft/Phi-3.5-mini-instruct: 696/900
+  microsoft/Phi-3.5-mini-instruct: 720/900
+  microsoft/Phi-3.5-mini-instruct: 744/900
+  microsoft/Phi-3.5-mini-instruct: 768/900
+  microsoft/Phi-3.5-mini-instruct: 792/900
+  microsoft/Phi-3.5-mini-instruct: 816/900
+  microsoft/Phi-3.5-mini-instruct: 840/900
+  microsoft/Phi-3.5-mini-instruct: 864/900
+  microsoft/Phi-3.5-mini-instruct: 888/900
+  microsoft/Phi-3.5-mini-instruct: 900/900
+saved /kaggle/working/drafts_1.json

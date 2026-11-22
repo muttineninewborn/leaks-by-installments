@@ -1,0 +1,24 @@
+schema = "https://github.com/ASSERT-KTH/assert-research-agent/blob/main/schemas/audit-v1.json"
+
+[paper]
+tex = ["paper/paper.tex"]
+
+[results]
+files = ["results/*.json"]
+instruments = ["study/simulate.py", "study/evaluate_live.py"]
+
+[[results.depends]]
+file = "results/simulation_weak_learner.json"
+instruments = ["study/simulate.py", "study/ledger_sim.py"]
+
+[[results.depends]]
+file = "results/simulation_strong_learner.json"
+instruments = ["study/simulate.py", "study/ledger_sim.py"]
+
+[[results.depends]]
+file = "results/live_tutor_a_qwen.json"
+instruments = ["study/evaluate_live.py", "study/live_test.py"]
+
+[[results.depends]]
+file = "results/live_tutor_b_phi.json"
+instruments = ["study/evaluate_live.py", "study/live_test.py"]

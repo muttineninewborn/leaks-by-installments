@@ -1,0 +1,14 @@
+digraph G { rankdir=TB; nodesep=0.18; ranksep=0.22; bgcolor=white; pad=0.05;
+ node[shape=box,style=rounded,fontname="TeX Gyre Termes",fontsize=17,margin="0.14,0.06",penwidth=1.1]; edge[fontname="TeX Gyre Termes",fontsize=15,arrowsize=0.7,penwidth=1.1];
+ req[label="Learner request\n(any session)"];
+ tut[label="Tutor LLM drafts\ncandidate reply"];
+ par[label="Parse reply: values +\nworked-solution graph"];
+ mat[label="Match ledger by\nvalue and structure"];
+ nomatch[label="Release", style="rounded,dashed"];
+ clo[label="Closure C' from\nD + d, M + m"];
+ dec[shape=diamond,style="",label="Final in C' or\ncoverage > τ?",margin="0.01,0.01"];
+ wh[label="Withhold;\nscaffold;\nrefusals + 1"];
+ rel[label="Release;\nupdate D, M"];
+ req->tut->par->mat; mat->nomatch[label="no\nmatch"]; mat->clo[label=" match"]; clo->dec; dec->wh[label="yes "]; dec->rel[label=" no"];
+ {rank=same; mat; nomatch;} {rank=same; wh; rel;}
+}
