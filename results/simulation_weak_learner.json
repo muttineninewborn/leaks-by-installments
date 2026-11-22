@@ -122,11 +122,11 @@
   "inputs": [
    {
     "path": "study/ledger_sim.py",
-    "sha256": "6e7cd78e2f021c730423ef9e83d4963ca74c512c670a359d18e7e02c2389f25d"
+    "sha256": "c7409a493506c088060f7262e6381bfc92f68fb84108771969f06de4a9770b6a"
    }
   ],
-  "commit": "13042270036c711585e607eddd3a7e07562ec4de",
-  "now": "2026-11-22T12:59:03+00:00",
+  "commit": "f9da13774b367e6e30a1e6137ffaffb284f92187",
+  "now": "2026-11-22T13:00:20+00:00",
   "osaudit": "0.7.0"
  }
 }
