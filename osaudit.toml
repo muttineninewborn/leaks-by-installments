@@ -34,3 +34,88 @@ file = "results/live_run1_tutor_b_phi.json"
 by = "Venkata Muttineni"
 date = "2026-11-20"
 reason = "Run 1 output copied unchanged from the Kaggle GPU run (notebook version 3); produced by study/live_test_run1.py. Run 1 did not save the raw tutor replies, so it cannot be replayed offline."
+
+[[numbers.allow]]
+value = "3.5"
+reason = "Model name (Phi-3.5-mini-instruct), not a measured value"
+file = "paper/paper.tex"
+line = 23
+
+[[numbers.allow]]
+value = "3.5"
+reason = "Model name (Phi-3.5-mini-instruct), not a measured value"
+file = "paper/paper.tex"
+line = 127
+
+[[numbers.allow]]
+value = "3.5"
+reason = "Model name (Phi-3.5-mini-instruct), not a measured value"
+file = "paper/paper.tex"
+line = 187
+
+[[numbers.allow]]
+value = "88%"
+cite = "zhao-etal-2026-evaluating-answer"
+reason = "Result reported by the cited paper"
+file = "paper/paper.tex"
+line = 28
+
+[[numbers.allow]]
+value = "5"
+reason = "LaTeX \\cmidrule column range, not a number of the paper"
+file = "paper/paper.tex"
+line = 188
+
+[[numbers.allow]]
+value = "6"
+reason = "LaTeX \\cmidrule column range, not a number of the paper"
+file = "paper/paper.tex"
+line = 188
+
+[[numbers.allow]]
+value = "9"
+reason = "LaTeX \\cmidrule column range, not a number of the paper"
+file = "paper/paper.tex"
+line = 188
+
+[[numbers.allow]]
+value = "54"
+reason = "Illustrative instance of problem template T2 in study/live_test.py (Appendix A), not a measured value"
+file = "paper/paper.tex"
+line = 259
+
+[[numbers.allow]]
+value = "7"
+reason = "Illustrative instance of problem template T2 in study/live_test.py (Appendix A), not a measured value"
+file = "paper/paper.tex"
+line = 259
+
+[[numbers.allow]]
+value = "41"
+reason = "Illustrative instance of problem template T2 in study/live_test.py (Appendix A), not a measured value"
+file = "paper/paper.tex"
+line = 259
+
+[[numbers.allow]]
+value = "72"
+reason = "Illustrative instance of problem template T2 in study/live_test.py (Appendix A), not a measured value"
+file = "paper/paper.tex"
+line = 261
+
+[[numbers.allow]]
+value = "35"
+reason = "Illustrative instance of problem template T2 in study/live_test.py (Appendix A), not a measured value"
+file = "paper/paper.tex"
+line = 261
+
+[[numbers.allow]]
+value = "4"
+reason = "Illustrative instance of problem template T2 in study/live_test.py (Appendix A), not a measured value"
+file = "paper/paper.tex"
+line = 261
+
+[[numbers.allow]]
+value = "5"
+reason = "Illustrative instance of problem template T2 in study/live_test.py (Appendix A), not a measured value"
+file = "paper/paper.tex"
+line = 261
