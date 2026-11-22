@@ -3,6 +3,7 @@
 Usage: python study/simulate.py P_SKILL P_TEACH
 Prints one JSON object with leak rates and honest-learner completion, as fractions and percents.
 """
+import inspect
 import json
 import sys
 
@@ -16,7 +17,8 @@ def pct(x):
 def main():
     ledger_sim.HON = (float(sys.argv[1]), float(sys.argv[2]))
     policies, iso_recall, input_recall, budget = ledger_sim.run()
-    out = {"honest_learner": {"p_skill": ledger_sim.HON[0], "p_teach": ledger_sim.HON[1]},
+    n = inspect.signature(ledger_sim.run).parameters["N"].default
+    out = {"n_problems": n, "honest_learner": {"p_skill": ledger_sim.HON[0], "p_teach": ledger_sim.HON[1]},
            "policies": {}, "budget": {}}
     for name, v in policies.items():
         out["policies"][name] = {

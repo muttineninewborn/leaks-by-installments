@@ -1,0 +1,90 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:46<00:46, 46.21s/it]Fetching 2 files: 100%|██████████| 2/2 [00:58<00:00, 26.48s/it]Fetching 2 files: 100%|██████████| 2/2 [00:58<00:00, 29.44s/it]
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:   0%|          | 1/434 [00:06<49:01,  6.79s/it]Loading weights:  48%|████▊     | 209/434 [00:06<00:05, 42.97it/s]Loading weights:  76%|███████▌  | 329/434 [00:11<00:03, 34.11it/s]Loading weights:  91%|█████████ | 396/434 [00:15<00:01, 27.40it/s]Loading weights: 100%|██████████| 434/434 [00:18<00:00, 23.44it/s]
+  Qwen/Qwen2.5-3B-Instruct: 12/1020
+  Qwen/Qwen2.5-3B-Instruct: 24/1020
+  Qwen/Qwen2.5-3B-Instruct: 36/1020
+  Qwen/Qwen2.5-3B-Instruct: 48/1020
+  Qwen/Qwen2.5-3B-Instruct: 60/1020
+  Qwen/Qwen2.5-3B-Instruct: 72/1020
+  Qwen/Qwen2.5-3B-Instruct: 84/1020
+  Qwen/Qwen2.5-3B-Instruct: 96/1020
+  Qwen/Qwen2.5-3B-Instruct: 108/1020
+  Qwen/Qwen2.5-3B-Instruct: 120/1020
+  Qwen/Qwen2.5-3B-Instruct: 132/1020
+  Qwen/Qwen2.5-3B-Instruct: 144/1020
+  Qwen/Qwen2.5-3B-Instruct: 156/1020
+  Qwen/Qwen2.5-3B-Instruct: 168/1020
+  Qwen/Qwen2.5-3B-Instruct: 180/1020
+  Qwen/Qwen2.5-3B-Instruct: 192/1020
+  Qwen/Qwen2.5-3B-Instruct: 204/1020
+  Qwen/Qwen2.5-3B-Instruct: 216/1020
+  Qwen/Qwen2.5-3B-Instruct: 228/1020
+  Qwen/Qwen2.5-3B-Instruct: 240/1020
+  Qwen/Qwen2.5-3B-Instruct: 252/1020
+  Qwen/Qwen2.5-3B-Instruct: 264/1020
+  Qwen/Qwen2.5-3B-Instruct: 276/1020
+  Qwen/Qwen2.5-3B-Instruct: 288/1020
+  Qwen/Qwen2.5-3B-Instruct: 300/1020
+  Qwen/Qwen2.5-3B-Instruct: 312/1020
+  Qwen/Qwen2.5-3B-Instruct: 324/1020
+  Qwen/Qwen2.5-3B-Instruct: 336/1020
+  Qwen/Qwen2.5-3B-Instruct: 348/1020
+  Qwen/Qwen2.5-3B-Instruct: 360/1020
+  Qwen/Qwen2.5-3B-Instruct: 372/1020
+  Qwen/Qwen2.5-3B-Instruct: 384/1020
+  Qwen/Qwen2.5-3B-Instruct: 396/1020
+  Qwen/Qwen2.5-3B-Instruct: 408/1020
+  Qwen/Qwen2.5-3B-Instruct: 420/1020
+  Qwen/Qwen2.5-3B-Instruct: 432/1020
+  Qwen/Qwen2.5-3B-Instruct: 444/1020
+  Qwen/Qwen2.5-3B-Instruct: 456/1020
+  Qwen/Qwen2.5-3B-Instruct: 468/1020
+  Qwen/Qwen2.5-3B-Instruct: 480/1020
+  Qwen/Qwen2.5-3B-Instruct: 492/1020
+  Qwen/Qwen2.5-3B-Instruct: 504/1020
+  Qwen/Qwen2.5-3B-Instruct: 516/1020
+  Qwen/Qwen2.5-3B-Instruct: 528/1020
+  Qwen/Qwen2.5-3B-Instruct: 540/1020
+  Qwen/Qwen2.5-3B-Instruct: 552/1020
+  Qwen/Qwen2.5-3B-Instruct: 564/1020
+  Qwen/Qwen2.5-3B-Instruct: 576/1020
+  Qwen/Qwen2.5-3B-Instruct: 588/1020
+  Qwen/Qwen2.5-3B-Instruct: 600/1020
+  Qwen/Qwen2.5-3B-Instruct: 612/1020
+  Qwen/Qwen2.5-3B-Instruct: 624/1020
+  Qwen/Qwen2.5-3B-Instruct: 636/1020
+  Qwen/Qwen2.5-3B-Instruct: 648/1020
+  Qwen/Qwen2.5-3B-Instruct: 660/1020
+  Qwen/Qwen2.5-3B-Instruct: 672/1020
+  Qwen/Qwen2.5-3B-Instruct: 684/1020
+  Qwen/Qwen2.5-3B-Instruct: 696/1020
+  Qwen/Qwen2.5-3B-Instruct: 708/1020
+  Qwen/Qwen2.5-3B-Instruct: 720/1020
+  Qwen/Qwen2.5-3B-Instruct: 732/1020
+  Qwen/Qwen2.5-3B-Instruct: 744/1020
+  Qwen/Qwen2.5-3B-Instruct: 756/1020
+  Qwen/Qwen2.5-3B-Instruct: 768/1020
+  Qwen/Qwen2.5-3B-Instruct: 780/1020
+  Qwen/Qwen2.5-3B-Instruct: 792/1020
+  Qwen/Qwen2.5-3B-Instruct: 804/1020
+  Qwen/Qwen2.5-3B-Instruct: 816/1020
+  Qwen/Qwen2.5-3B-Instruct: 828/1020
+  Qwen/Qwen2.5-3B-Instruct: 840/1020
+  Qwen/Qwen2.5-3B-Instruct: 852/1020
+  Qwen/Qwen2.5-3B-Instruct: 864/1020
+  Qwen/Qwen2.5-3B-Instruct: 876/1020
+  Qwen/Qwen2.5-3B-Instruct: 888/1020
+  Qwen/Qwen2.5-3B-Instruct: 900/1020
+  Qwen/Qwen2.5-3B-Instruct: 912/1020
+  Qwen/Qwen2.5-3B-Instruct: 924/1020
+  Qwen/Qwen2.5-3B-Instruct: 936/1020
+  Qwen/Qwen2.5-3B-Instruct: 948/1020
+  Qwen/Qwen2.5-3B-Instruct: 960/1020
+  Qwen/Qwen2.5-3B-Instruct: 972/1020
+  Qwen/Qwen2.5-3B-Instruct: 984/1020
+  Qwen/Qwen2.5-3B-Instruct: 996/1020
+  Qwen/Qwen2.5-3B-Instruct: 1008/1020
+  Qwen/Qwen2.5-3B-Instruct: 1020/1020
+RESULT Qwen/Qwen2.5-3B-Instruct {"P0": {"split": 0.445, "iso": 0.583, "direct": 0.7, "honest": 0.992, "hint_refused": 0.0}, "P1": {"split": 0.093, "iso": 0.583, "direct": 0.0, "honest": 0.983, "hint_refused": 0.0}, "P2": {"split": 0.063, "iso": 0.583, "direct": 0.0, "honest": 0.983, "hint_refused": 0.0}, "P3": {"split": 0.063, "iso": 0.2, "direct": 0.0, "honest": 0.983, "hint_refused": 0.0}, "parser": {"same_template_recall": 0.717, "cross_template_false_match": 0.0}, "split_sign_test_p": 1.0, "criteria": {"C1": true, "C2": false, "C3": true, "C4": false}, "PASS": false}

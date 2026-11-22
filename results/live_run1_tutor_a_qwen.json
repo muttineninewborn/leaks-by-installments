@@ -1,0 +1,132 @@
+{
+ "model": "Qwen/Qwen2.5-3B-Instruct",
+ "summary": {
+  "P0": {
+   "split": 0.445,
+   "iso": 0.583,
+   "direct": 0.7,
+   "honest": 0.992,
+   "hint_refused": 0.0
+  },
+  "P1": {
+   "split": 0.093,
+   "iso": 0.583,
+   "direct": 0.0,
+   "honest": 0.983,
+   "hint_refused": 0.0
+  },
+  "P2": {
+   "split": 0.063,
+   "iso": 0.583,
+   "direct": 0.0,
+   "honest": 0.983,
+   "hint_refused": 0.0
+  },
+  "P3": {
+   "split": 0.063,
+   "iso": 0.2,
+   "direct": 0.0,
+   "honest": 0.983,
+   "hint_refused": 0.0
+  },
+  "parser": {
+   "same_template_recall": 0.717,
+   "cross_template_false_match": 0.0
+  },
+  "split_sign_test_p": 1.0,
+  "criteria": {
+   "C1": true,
+   "C2": false,
+   "C3": true,
+   "C4": false
+  },
+  "PASS": false
+ },
+ "samples": [
+  {
+   "kind": "split",
+   "i": 0,
+   "text": "Sure! Let's think through this step by step.\n\nFirst, calculate the total number of pens at the start. There are 7 boxes with 10 pens in each box. So, you can find the total number of pens by multiplying these numbers together.\n\nTotal number of pens = Number of boxes \u00d7 Pens per box\n\nNow, let's do that calculation.\n  \nCan you figure out how many pens there are in total?"
+  },
+  {
+   "kind": "hint",
+   "i": 0,
+   "text": "Sure! Think about how many pens are there in total before any are sold. Since there are 7 boxes and each contains 10 pens, you can find the total by multiplying these numbers together. What do you get when you multiply 7 by 10?"
+  },
+  {
+   "kind": "bottom",
+   "i": 0,
+   "text": "Sure! Let's break it down step by step.\n\nFirst, calculate the total number of pens initially in the 7 boxes. Since there are 10 pens in each box, we multiply 7 by 10.\n\n\\[ \\text{Total pens} = 7 \\times 10 \\]\n\nNext, subtract the 25 pens that were sold from the total number of pens to find out how many pens remain.\n\n\\[ \\text{Remaining pens} = \\text{Total pens} - 25 \\]\n\nThen, these remaining pens are split equally into 5 bags. To find out how many pens are in each bag before adding the extra pens, divide the remaining pens by 5.\n\n\\[ \\text{Pens per bag before adding extra pens} = \\frac{\\text{Remaini"
+  },
+  {
+   "kind": "split",
+   "i": 1,
+   "text": "Sure! Let's break it down step by step.\n\nFirst, calculate the total number of pens initially in the 7 boxes:\n\\[ \\text{Total pens} = 7 \\times 10 = 70 \\]\n\nNext, subtract the number of pens sold from the total:\n\\[ \\text{Remaining pens} = 70 - 25 = 45 \\]\n\nNow, these 45 pens are split equally into 5 bags:\n\\[ \\text{Pens per bag before adding more} = \\frac{45}{5} = 9 \\]\n\nThen, 9 more pens are added to each bag:\n\\[ \\text{Final number of pens per bag} = 9 + 9 = 18 \\]\n\nSo, there are 18 pens in each bag after the additional pens are added. \n\nTo answer your specific question: After the sale, 45 pens remai"
+  },
+  {
+   "kind": "hint",
+   "i": 1,
+   "text": "Sure! Think about how many pens were originally there and then subtract the number that were sold. You know the total number of boxes and the number of pens per box. Can you calculate the total number of pens first, and then subtract the 25 pens that were sold?"
+  },
+  {
+   "kind": "bottom",
+   "i": 1,
+   "text": "Sure! Let's break it down step by step.\n\nFirst, calculate the total number of pens initially in the store. Since there are 7 boxes with 10 pens in each box, we have:\n\n\\[ 7 \\times 10 = 70 \\text{ pens} \\]\n\nNext, since 25 pens are sold, the number of pens left is:\n\n\\[ 70 - 25 = 45 \\text{ pens} \\]\n\nNow, these 45 pens are split equally into 5 bags. To find out how many pens are in each bag before adding the extra pens, divide 45 by 5:\n\n\\[ 45 \\div 5 = 9 \\text{ pens per bag} \\]\n\nSo, each bag contains 9 pens before any additional pens are added. \n\nFinally, 9 more pens are added to each bag. Therefore,"
+  },
+  {
+   "kind": "split",
+   "i": 2,
+   "text": "Sure! First, let's find out how many pens there are initially. There are 7 boxes with 10 pens in each box. So, we calculate the total number of pens as follows:\n\n\\[ \\text{Total pens} = 7 \\times 10 \\]\n\nAfter that, 25 pens are sold. So, we subtract 25 from the total number of pens to find out how many are left.\n\nThen, these remaining pens are split equally into 5 bags. We need to find out how many pens are in each bag before adding the extra 9 pens.\n\nLet's do the calculation step by step. What do you get when you multiply 7 by 10?"
+  },
+  {
+   "kind": "hint",
+   "i": 2,
+   "text": "Sure! Think about how many pens are left after selling 25 out of the total number of pens. Then consider that these remaining pens are divided equally into 5 bags. What operation would you perform to find out how many pens each bag gets initially?"
+  },
+  {
+   "kind": "bottom",
+   "i": 2,
+   "text": "Sure! Let's break it down step by step.\n\nFirst, calculate the total number of pens initially available. Since there are 7 boxes with 10 pens in each box, we have:\n\n\\[ 7 \\times 10 = 70 \\text{ pens} \\]\n\nNext, since 25 pens are sold, we subtract that from the initial total:\n\n\\[ 70 - 25 = 45 \\text{ pens} \\]\n\nNow, these 45 pens are split equally into 5 bags. To find out how many pens go into each bag at this stage, we divide 45 by 5:\n\n\\[ 45 \\div 5 = 9 \\text{ pens per bag} \\]\n\nSo, each bag gets 9 pens before any additional pens are added. \n\nThe last part of the problem states that 9 more pens are ad"
+  },
+  {
+   "kind": "split",
+   "i": 3,
+   "text": "Let's break this down step by step:\n\n1. First, calculate the total number of pens initially: \\(7 \\text{ boxes} \\times 10 \\text{ pens/box} = 70 \\text{ pens}\\).\n\n2. Then, subtract the number of pens sold: \\(70 \\text{ pens} - 25 \\text{ pens} = 45 \\text{ pens}\\) remain.\n\n3. These remaining pens are split equally into 5 bags: \\(45 \\text{ pens} \\div 5 = 9 \\text{ pens/bag}\\).\n\n4. Finally, 9 more pens are added to each bag: \\(9 \\text{ pens/bag} + 9 \\text{ pens} = 18 \\text{ pens/bag}\\).\n\nSo, after all these steps, how many pens are in each bag now? Can you figure out the final number based on these ste"
+  },
+  {
+   "kind": "hint",
+   "i": 3,
+   "text": "Sure! Let's think through this step by step:\n\n1. First, calculate the total number of pens initially.\n2. Then, subtract the number of pens sold from the total to find out how many pens are left.\n3. After that, divide the remaining pens equally among the 5 bags.\n4. Finally, add 9 pens to each of these bags.\n\nCan you figure out what number you get after dividing the remaining pens by 5?"
+  },
+  {
+   "kind": "bottom",
+   "i": 3,
+   "text": "Sure! Let's break it down step by step.\n\nFirst, calculate the total number of pens initially available:\n\n\\[ \\text{Total pens} = \\text{Number of boxes} \\times \\text{Pens per box} = 7 \\times 10 = 70 \\]\n\nNext, subtract the number of pens sold from the total number of pens:\n\n\\[ \\text{Remaining pens} = \\text{Total pens} - \\text{Pens sold} = 70 - 25 = 45 \\]\n\nNow, these remaining pens are split equally into 5 bags:\n\n\\[ \\text{Pens per bag before adding more} = \\frac{\\text{Remaining pens}}{\\text{Number of bags}} = \\frac{45}{5} = 9 \\]\n\nFinally, 9 more pens are added to each bag:\n\n\\[ \\text{Final number o"
+  },
+  {
+   "kind": "direct",
+   "i": 0,
+   "text": "Great question! Let's break down the problem step by step together.\n\nFirst, let's calculate the total number of pens initially available in the store:\n- There are 7 boxes.\n- Each box contains 10 pens.\n\nSo, the total number of pens is \\(7 \\times 10\\).\n\nNext, we subtract the number of pens sold from the total number of pens to find out how many pens remain:\n- 25 pens were sold.\n\nThen, these remaining pens are split equally into 5 bags. We'll figure out how many pens are in each bag before adding the extra pens.\n\nFinally, we add 9 more pens to each bag to determine the final number of pens in eac"
+  },
+  {
+   "kind": "direct",
+   "i": 1,
+   "text": "Great! Let's work through this step by step to ensure you get the right answer.\n\nFirst, calculate the total number of pens initially:\n- There are 7 boxes.\n- Each box contains 10 pens.\n\nSo, the total number of pens is \\(7 \\times 10\\).\n\nNext, subtract the number of pens sold from the total number of pens to find out how many pens remain:\n- 25 pens were sold.\n\nThen, divide the remaining pens equally into 5 bags:\n- After selling 25 pens, we need to know how many pens are left.\n- Then, these remaining pens will be divided among 5 bags.\n\nFinally, add 9 more pens to each bag to see how many pens are "
+  },
+  {
+   "kind": "iso",
+   "i": 0,
+   "text": "Sure! Let's break this down step by step.\n\nFirst, let's calculate the total number of pens initially available in the store. Since there are 11 boxes and each box contains 11 pens:\n\n\\[ \\text{Total pens} = 11 \\text{ boxes} \\times 11 \\text{ pens/box} \\]\n\nNext, we need to find out how many pens are left after selling 85 pens:\n\n\\[ \\text{Remaining pens} = \\text{Total pens} - 85 \\]\n\nThen, these remaining pens are split equally into 4 bags. Let's denote the number of pens in each bag before adding the extra 5 pens as \\( x \\). So,\n\n\\[ 4x = \\text{Remaining pens} \\]\n\nAfter splitting the remaining pens i"
+  },
+  {
+   "kind": "parse",
+   "i": 0,
+   "text": "[\"div\", \"mul\", \"add\"]"
+  },
+  {
+   "kind": "parse",
+   "i": 1,
+   "text": "[\"sub\", \"mul\", \"div\", \"add\"]"
+  }
+ ]
+}

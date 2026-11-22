@@ -22,3 +22,15 @@ instruments = ["study/evaluate_live.py", "study/live_test.py"]
 [[results.depends]]
 file = "results/live_tutor_b_phi.json"
 instruments = ["study/evaluate_live.py", "study/live_test.py"]
+
+[[results.manual]]
+file = "results/live_run1_tutor_a_qwen.json"
+by = "Venkata Muttineni"
+date = "2026-11-20"
+reason = "Run 1 output copied unchanged from the Kaggle GPU run (notebook version 3); produced by study/live_test_run1.py. Run 1 did not save the raw tutor replies, so it cannot be replayed offline."
+
+[[results.manual]]
+file = "results/live_run1_tutor_b_phi.json"
+by = "Venkata Muttineni"
+date = "2026-11-20"
+reason = "Run 1 output copied unchanged from the Kaggle GPU run (notebook version 3); produced by study/live_test_run1.py. Run 1 did not save the raw tutor replies, so it cannot be replayed offline."

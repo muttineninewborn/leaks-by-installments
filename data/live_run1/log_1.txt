@@ -1,0 +1,91 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] This model config has set a `rope_parameters['original_max_position_embeddings']` field, to be used together with `max_position_embeddings` to determine a scaling factor. Please set the `factor` field of `rope_parameters`with this ratio instead -- we recommend the use of this field over `original_max_position_embeddings`, as it is compatible with most model architectures.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:51<00:51, 51.38s/it]Fetching 2 files: 100%|██████████| 2/2 [01:08<00:00, 30.96s/it]Fetching 2 files: 100%|██████████| 2/2 [01:08<00:00, 34.03s/it]
+Loading weights:   0%|          | 0/195 [00:00<?, ?it/s]Loading weights:   1%|          | 1/195 [00:03<12:13,  3.78s/it]Loading weights:   1%|          | 2/195 [00:04<06:20,  1.97s/it]Loading weights:   6%|▌         | 11/195 [00:04<00:50,  3.62it/s]Loading weights:  16%|█▋        | 32/195 [00:05<00:13, 12.18it/s]Loading weights:  18%|█▊        | 36/195 [00:05<00:12, 12.94it/s]Loading weights:  21%|██        | 41/195 [00:05<00:10, 14.05it/s]Loading weights:  24%|██▍       | 47/195 [00:05<00:09, 16.26it/s]Loading weights:  27%|██▋       | 53/195 [00:06<00:08, 16.81it/s]Loading weights:  30%|███       | 59/195 [00:06<00:07, 18.38it/s]Loading weights:  33%|███▎      | 64/195 [00:07<00:08, 15.45it/s]Loading weights:  34%|███▍      | 66/195 [00:07<00:13,  9.49it/s]Loading weights:  36%|███▋      | 71/195 [00:08<00:12,  9.59it/s]Loading weights:  39%|███▉      | 77/195 [00:09<00:13,  8.55it/s]Loading weights:  43%|████▎     | 83/195 [00:09<00:13,  8.21it/s]Loading weights:  46%|████▌     | 89/195 [00:10<00:14,  7.33it/s]Loading weights:  49%|████▊     | 95/195 [00:11<00:14,  7.11it/s]Loading weights:  52%|█████▏    | 101/195 [00:12<00:10,  8.56it/s]Loading weights:  67%|██████▋   | 130/195 [00:13<00:03, 16.38it/s]Loading weights:  68%|██████▊   | 132/195 [00:13<00:05, 12.36it/s]Loading weights:  70%|███████   | 137/195 [00:15<00:06,  9.20it/s]Loading weights:  73%|███████▎  | 143/195 [00:16<00:07,  7.17it/s]Loading weights:  76%|███████▋  | 149/195 [00:18<00:07,  5.82it/s]Loading weights:  79%|███████▉  | 155/195 [00:19<00:06,  5.80it/s]Loading weights:  83%|████████▎ | 161/195 [00:20<00:05,  5.76it/s]Loading weights:  86%|████████▌ | 167/195 [00:20<00:04,  6.98it/s]Loading weights:  93%|█████████▎| 182/195 [00:20<00:00, 13.31it/s]Loading weights:  96%|█████████▌| 187/195 [00:20<00:00, 15.30it/s]Loading weights:  98%|█████████▊| 192/195 [00:21<00:00, 17.95it/s]Loading weights: 100%|██████████| 195/195 [00:21<00:00,  9.27it/s]
+  microsoft/Phi-3.5-mini-instruct: 12/1020
+  microsoft/Phi-3.5-mini-instruct: 24/1020
+  microsoft/Phi-3.5-mini-instruct: 36/1020
+  microsoft/Phi-3.5-mini-instruct: 48/1020
+  microsoft/Phi-3.5-mini-instruct: 60/1020
+  microsoft/Phi-3.5-mini-instruct: 72/1020
+  microsoft/Phi-3.5-mini-instruct: 84/1020
+  microsoft/Phi-3.5-mini-instruct: 96/1020
+  microsoft/Phi-3.5-mini-instruct: 108/1020
+  microsoft/Phi-3.5-mini-instruct: 120/1020
+  microsoft/Phi-3.5-mini-instruct: 132/1020
+  microsoft/Phi-3.5-mini-instruct: 144/1020
+  microsoft/Phi-3.5-mini-instruct: 156/1020
+  microsoft/Phi-3.5-mini-instruct: 168/1020
+  microsoft/Phi-3.5-mini-instruct: 180/1020
+  microsoft/Phi-3.5-mini-instruct: 192/1020
+  microsoft/Phi-3.5-mini-instruct: 204/1020
+  microsoft/Phi-3.5-mini-instruct: 216/1020
+  microsoft/Phi-3.5-mini-instruct: 228/1020
+  microsoft/Phi-3.5-mini-instruct: 240/1020
+  microsoft/Phi-3.5-mini-instruct: 252/1020
+  microsoft/Phi-3.5-mini-instruct: 264/1020
+  microsoft/Phi-3.5-mini-instruct: 276/1020
+  microsoft/Phi-3.5-mini-instruct: 288/1020
+  microsoft/Phi-3.5-mini-instruct: 300/1020
+  microsoft/Phi-3.5-mini-instruct: 312/1020
+  microsoft/Phi-3.5-mini-instruct: 324/1020
+  microsoft/Phi-3.5-mini-instruct: 336/1020
+  microsoft/Phi-3.5-mini-instruct: 348/1020
+  microsoft/Phi-3.5-mini-instruct: 360/1020
+  microsoft/Phi-3.5-mini-instruct: 372/1020
+  microsoft/Phi-3.5-mini-instruct: 384/1020
+  microsoft/Phi-3.5-mini-instruct: 396/1020
+  microsoft/Phi-3.5-mini-instruct: 408/1020
+  microsoft/Phi-3.5-mini-instruct: 420/1020
+  microsoft/Phi-3.5-mini-instruct: 432/1020
+  microsoft/Phi-3.5-mini-instruct: 444/1020
+  microsoft/Phi-3.5-mini-instruct: 456/1020
+  microsoft/Phi-3.5-mini-instruct: 468/1020
+  microsoft/Phi-3.5-mini-instruct: 480/1020
+  microsoft/Phi-3.5-mini-instruct: 492/1020
+  microsoft/Phi-3.5-mini-instruct: 504/1020
+  microsoft/Phi-3.5-mini-instruct: 516/1020
+  microsoft/Phi-3.5-mini-instruct: 528/1020
+  microsoft/Phi-3.5-mini-instruct: 540/1020
+  microsoft/Phi-3.5-mini-instruct: 552/1020
+  microsoft/Phi-3.5-mini-instruct: 564/1020
+  microsoft/Phi-3.5-mini-instruct: 576/1020
+  microsoft/Phi-3.5-mini-instruct: 588/1020
+  microsoft/Phi-3.5-mini-instruct: 600/1020
+  microsoft/Phi-3.5-mini-instruct: 612/1020
+  microsoft/Phi-3.5-mini-instruct: 624/1020
+  microsoft/Phi-3.5-mini-instruct: 636/1020
+  microsoft/Phi-3.5-mini-instruct: 648/1020
+  microsoft/Phi-3.5-mini-instruct: 660/1020
+  microsoft/Phi-3.5-mini-instruct: 672/1020
+  microsoft/Phi-3.5-mini-instruct: 684/1020
+  microsoft/Phi-3.5-mini-instruct: 696/1020
+  microsoft/Phi-3.5-mini-instruct: 708/1020
+  microsoft/Phi-3.5-mini-instruct: 720/1020
+  microsoft/Phi-3.5-mini-instruct: 732/1020
+  microsoft/Phi-3.5-mini-instruct: 744/1020
+  microsoft/Phi-3.5-mini-instruct: 756/1020
+  microsoft/Phi-3.5-mini-instruct: 768/1020
+  microsoft/Phi-3.5-mini-instruct: 780/1020
+  microsoft/Phi-3.5-mini-instruct: 792/1020
+  microsoft/Phi-3.5-mini-instruct: 804/1020
+  microsoft/Phi-3.5-mini-instruct: 816/1020
+  microsoft/Phi-3.5-mini-instruct: 828/1020
+  microsoft/Phi-3.5-mini-instruct: 840/1020
+  microsoft/Phi-3.5-mini-instruct: 852/1020
+  microsoft/Phi-3.5-mini-instruct: 864/1020
+  microsoft/Phi-3.5-mini-instruct: 876/1020
+  microsoft/Phi-3.5-mini-instruct: 888/1020
+  microsoft/Phi-3.5-mini-instruct: 900/1020
+  microsoft/Phi-3.5-mini-instruct: 912/1020
+  microsoft/Phi-3.5-mini-instruct: 924/1020
+  microsoft/Phi-3.5-mini-instruct: 936/1020
+  microsoft/Phi-3.5-mini-instruct: 948/1020
+  microsoft/Phi-3.5-mini-instruct: 960/1020
+  microsoft/Phi-3.5-mini-instruct: 972/1020
+  microsoft/Phi-3.5-mini-instruct: 984/1020
+  microsoft/Phi-3.5-mini-instruct: 996/1020
+  microsoft/Phi-3.5-mini-instruct: 1008/1020
+  microsoft/Phi-3.5-mini-instruct: 1020/1020
+RESULT microsoft/Phi-3.5-mini-instruct {"P0": {"split": 1.0, "iso": 1.0, "direct": 0.683, "honest": 1.0, "hint_refused": 0.0}, "P1": {"split": 0.198, "iso": 1.0, "direct": 0.0, "honest": 0.983, "hint_refused": 0.04}, "P2": {"split": 0.062, "iso": 1.0, "direct": 0.0, "honest": 0.982, "hint_refused": 0.072}, "P3": {"split": 0.062, "iso": 0.433, "direct": 0.0, "honest": 0.982, "hint_refused": 0.072}, "parser": {"same_template_recall": 0.567, "cross_template_false_match": 0.0}, "split_sign_test_p": 1.0, "criteria": {"C1": false, "C2": false, "C3": true, "C4": false}, "PASS": false}
