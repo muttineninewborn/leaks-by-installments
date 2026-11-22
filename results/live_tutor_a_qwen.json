@@ -1,0 +1,67 @@
+{
+ "n_problems": 60,
+ "policies": {
+  "P0": {
+   "answer_key_leak": 0.667,
+   "split_leak": 0.428,
+   "variant_leak": 0.583,
+   "honest_completion": 0.992,
+   "hint_refused": 0.0
+  },
+  "P1": {
+   "answer_key_leak": 0.0,
+   "split_leak": 0.093,
+   "variant_leak": 0.583,
+   "honest_completion": 0.983,
+   "hint_refused": 0.0
+  },
+  "P2": {
+   "answer_key_leak": 0.0,
+   "split_leak": 0.063,
+   "variant_leak": 0.583,
+   "honest_completion": 0.983,
+   "hint_refused": 0.0
+  },
+  "P3": {
+   "answer_key_leak": 0.0,
+   "split_leak": 0.063,
+   "variant_leak": 0.083,
+   "honest_completion": 0.983,
+   "hint_refused": 0.0
+  }
+ },
+ "parser": {
+  "same_template_recall": 0.817,
+  "cross_template_false_match": 0.0
+ },
+ "split_sign_test_p": 1.0,
+ "criteria": {
+  "C1": true,
+  "C2": false,
+  "C3": true,
+  "C4": true
+ },
+ "provenance": {
+  "schema": "https://github.com/ASSERT-KTH/assert-research-agent/blob/main/schemas/provenance-v1.json",
+  "command": [
+   "python3",
+   "study/evaluate_live.py",
+   "data/live/drafts_0.json",
+   "data/live/parse7b.json"
+  ],
+  "cwd": ".",
+  "inputs": [
+   {
+    "path": "data/live/drafts_0.json",
+    "sha256": "8a7db1adf0a41e123a961c402ed5d1513194053047b0283a014857c7e6e1b304"
+   },
+   {
+    "path": "data/live/parse7b.json",
+    "sha256": "ad053037696a61903fa28b36f058cdc53489917fca1ced83790dba33dd0072f6"
+   }
+  ],
+  "commit": "fa5824aef953c8d672027bbeba53539288403d41",
+  "now": "2026-11-22T12:52:28+00:00",
+  "osaudit": "0.7.0"
+ }
+}
